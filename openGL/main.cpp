@@ -4,6 +4,7 @@
 
 void display() {  // Display function will draw the image.
 
+    glClearColor(0, 0, 0, 1);  // Background RGB
     glClear(GL_COLOR_BUFFER_BIT);
 
     glBegin(GL_TRIANGLES);
